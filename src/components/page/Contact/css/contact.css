@@ -1,0 +1,141 @@
+#contactContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#contactContainer #wrapperContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+#contactContainer #leftContainer {
+    background-color: var(--primaryColor);
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: absolute;
+    left: 300px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactContainer #textContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contactContainer .iconTextContainer {
+    display: flex;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+#contactContainer svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    color: gray;
+    padding-right: 10px;
+    font-size: 28px !important;
+}
+
+#contactContainer #rightContainer {
+    padding: 20px;
+    border: 2px solid var(--primaryColor);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 250px;
+}
+
+.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    width: 350px;
+}
+
+label#standard-basic-label {
+    color: var(--primaryColor);
+}
+
+label+.css-v4u5dn-MuiInputBase-root-MuiInput-root {
+    margin-top: 16px;
+    margin-right: 22px;
+}
+
+.formBox {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 1px solid var(--primaryColor) !important;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 1px solid var(--primaryColor) !important;
+}
+
+#contactContainer #rightHeading {
+    color: var(--primaryColor);
+}
+
+.iconContainer {
+    padding-bottom: 45px;
+    padding-top: 126px;
+}
+
+#contactContainer #submitButton {
+    padding: 14px;
+    padding-left: 38px;
+    padding-right: 38px;
+    background: var(--primaryColor);
+    border: 1px solid;
+    border-radius: 5px;
+    color: #695c5c;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1500px) {
+    #contactContainer #wrapperContainer {
+        padding-bottom: 66px;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contactContainer #leftContainer {
+        width: 310px;
+        position: relative;
+        left: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contactContainer #rightContainer {
+        padding: 15px;
+        padding-bottom: 34px;
+        padding-top: 34px;
+    }
+
+    .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        width: 350px;
+    }
+
+    .formBox {
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+
+    .iconContainer {
+        padding-bottom: 45px;
+        padding-top: 60px;
+    }
+
+    label+.css-v4u5dn-MuiInputBase-root-MuiInput-root {
+        margin-top: 16px;
+        margin-bottom: 35px;
+    }
+}
+
+

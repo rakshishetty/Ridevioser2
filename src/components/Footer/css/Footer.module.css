@@ -1,0 +1,158 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-bottom: 75px;
+    margin-top: 32px;
+}
+
+.header {
+    color: white;
+    font-size: 28px;
+}
+
+.p {
+    color: white;
+    margin: 0px;
+    line-height: 26px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    white-space: break-spaces;
+}
+
+.iconContainer {
+    padding-top: 20px;
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+    border: 1px solid #f8c822;
+    align-items: center;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.facebook {
+    color: #f8c822;
+    font-size: 37px !important;
+    padding-right: 10px;
+}
+
+.socialMedia {
+    color: white;
+    font-size: 24px !important;
+}
+
+.contactIcon {
+    color: #f8c822;
+    padding-right: 10px;
+    font-size: 24px !important;
+}
+
+.footerAddress {
+    list-style-type: none;
+    color: white;
+    line-height: 24px;
+}
+
+.footerLi {
+    list-style-type: none;
+    color: white;
+    line-height: 24px;
+}
+
+.iconContainer {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 18px;
+}
+
+.horizontalLine {
+    width: 90%;
+}
+
+hr {
+    color: #434343;
+}
+
+.footerParagraph {
+    color: #434343;
+    padding-left: 180px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+    .container {
+        flex-direction: column;
+        margin-left: 26px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .p {
+
+        padding-bottom: 0px;
+    }
+    .iconContainer {
+        width: 54%;
+        padding-top: 12px;
+    }
+    .footerAddress {
+        list-style-type: none;
+        color: white;
+        line-height: 24px;
+    }
+    .footerParagraph {
+        padding-left: 32px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        margin-left: 58px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .p {
+
+        padding-bottom: 0px;
+    }
+    .iconContainer {
+        width: 54%;
+        padding-top: 12px;
+    }
+    .footerAddress {
+        list-style-type: none;
+        color: white;
+        line-height: 24px;
+    }
+    .footerParagraph {
+        padding-left: 32px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 800px) {
+    .header {
+        font-size: 22px;
+    }
+    .p {
+        font-size: 13px;
+        padding-right: 15px;
+    }
+    .footerLi {
+        font-size: 14px;
+    }
+    .footerAddress {
+        font-size: 14px;
+    }
+    .footerParagraph {
+        padding-left: 52px;
+    }
+}

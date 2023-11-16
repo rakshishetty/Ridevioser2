@@ -1,0 +1,81 @@
+#navBar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+#navBar img.img {
+    width: 45px;
+    padding-left: 20px;
+    height: 62px;
+}
+
+#navBar #navBarContainer {
+    position: relative;
+    top: 40px;
+    background: var(--primaryColor);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    border-radius: 10px;
+}
+
+#navBar #linkContainer {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navBar .link {
+    color: rgba(0, 0, 0, 255);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 491px ) and (max-width: 900px) {
+    #navBar #navBarContainer {
+        width: 85%;
+    }
+
+    #navBar #linkContainer {
+        width: 75%;
+    }
+
+    #navBar .link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #navBar #navBarContainer {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 350px ) and (max-width: 490px)  {
+    #navBar #navBarContainer {
+        width: 88%;
+    }
+    #navBar .link {
+        font-size: 9px;
+    }
+    #navBar #linkContainer {
+        width: 75%;
+    }
+ 
+    }
+    @media only screen and (min-width: 491px ) and (max-width: 1000px)  {
+        #navBar {
+            margin-top: 20px;
+        }
+        #navBar #navBarContainer {
+            width: 88%;
+        }
+    }

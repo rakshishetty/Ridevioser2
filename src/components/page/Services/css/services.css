@@ -1,0 +1,384 @@
+#serviceMainContainer {
+    height: 1130px;
+}
+
+#serviceContainer {
+    color: var(--primaryColor);
+    margin-top: 100px;
+}
+#serviceContainer .container {
+    margin-top: 50px;
+    display: flex;
+}
+#serviceContainer .subContainer {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 48px;
+}
+
+.headerServices {
+    display: flex;
+    justify-content: center;
+    color: var(--primaryColor);
+}
+
+#serviceContainer img#homeImg {
+    width: 15%;
+    height: 10%;
+    padding: 40px;
+}
+
+#serviceContainer h2.rowHeader {
+    width: 57%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#serviceContainer p.rowpara {
+    width: 60%;
+    line-height: 26px;
+}
+#serviceContainer img#bgImage {
+    padding: 195px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+ p.headerTextServices {
+    font-size: 20px;
+    margin: 0px;
+}
+
+ .paraTextServices {
+    font-size: 36px;
+}
+#serviceContainer img#carImage {
+    position: absolute;
+    left: 802px;
+    top: 858px;
+    width: 316px;
+}
+
+@media only screen and (min-width: 400px ) and (max-width: 599px) {
+    #serviceMainContainer {
+        height: 1632px;
+    }
+    
+    #serviceContainer {
+        margin-top: 51px;
+    }
+
+    #serviceContainer .container {
+        flex-direction: column;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 15px;
+        margin-left: 0;
+    
+    }
+    
+    #serviceContainer .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #serviceContainer img#homeImg {
+       
+        padding: 26px;
+    }
+    
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+    }
+    
+    #serviceContainer p.rowpara {
+        width: 100%;
+        font-size: 15px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    #serviceContainer .rowContainer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+   
+    #serviceContainer img#carImage {
+        left: 50px;
+        width: 316px;
+        top: 1142px;
+    }
+}
+
+@media only screen and (min-width: 445px ) and (max-width: 700px) {
+    #serviceMainContainer {
+        height: 1590px;
+    }
+    
+    #serviceContainer {
+        margin-top: 51px;
+    }
+
+    #serviceContainer .container {
+        flex-direction: column;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+    
+    #serviceContainer .header {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #serviceContainer img#homeImg {
+       
+        padding: 26px;
+    }
+    
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+    }
+    
+    #serviceContainer p.rowpara {
+        width: 100%;
+        font-size: 15px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    #serviceContainer .rowContainer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+   
+    #serviceContainer img#carImage {
+        left: 77px;
+        width: 316px;
+        top: 1118px;
+    }
+}
+
+@media only screen and (min-width: 701px ) and (max-width: 800px) {
+    #serviceContainer .container {
+        margin-top: 50px;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 22px;
+        margin-left: 0;
+    }
+    #serviceContainer img#homeImg {
+        width: 15%;
+        height: 10%;
+        padding: 23px;
+    }
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+        margin: 0px;
+    }
+    #serviceContainer p.rowpara {
+        width: 100%;
+        line-height: 26px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 12px;
+        padding-top: 142px;
+        padding-bottom: 0px;
+        width: 200px;
+    }
+    #serviceContainer img#carImage {
+        left: 272px;
+        top: 979px;
+        width: 208px;
+    }
+}
+
+@media only screen and (min-width: 801px ) and (max-width: 859px) {
+    #serviceContainer .container {
+        margin-top: 50px;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 22px;
+        margin-left: 0;
+    }
+    #serviceContainer img#homeImg {
+        width: 15%;
+        height: 10%;
+        padding: 23px;
+    }
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+        margin: 0px;
+    }
+    #serviceContainer p.rowpara {
+        width: 100%;
+        line-height: 26px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 12px;
+        padding-top: 142px;
+        padding-bottom: 0px;
+        width: 200px;
+    }
+    #serviceContainer img#carImage {
+        left: 324px;
+        top: 979px;
+        width: 208px;
+    }
+}
+
+@media only screen and (min-width: 860px ) and (max-width: 1000px) {
+    #serviceContainer .container {
+        margin-top: 50px;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 22px;
+        margin-left: 0;
+    }
+    #serviceContainer img#homeImg {
+        width: 15%;
+        height: 10%;
+        padding: 23px;
+    }
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+        margin: 0px;
+    }
+    #serviceContainer p.rowpara {
+        width: 100%;
+        line-height: 26px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 12px;
+        padding-top: 91px;
+        padding-bottom: 0px;
+        width: 200px;
+    }
+    #serviceContainer img#carImage {
+        left: 365px;
+        top: 930px;
+        width: 208px;
+    }
+}
+
+@media only screen and (min-width: 1001px ) and (max-width: 1102px) {
+     #serviceMainContainer {
+        height: 1063px;
+    }
+    #serviceContainer .container {
+        margin-top: 50px;
+    }
+    #serviceContainer .subContainer {
+        margin-bottom: 22px;
+        margin-left: 0;
+    }
+    #serviceContainer img#homeImg {
+        width: 15%;
+        height: 10%;
+        padding: 23px;
+    }
+    #serviceContainer h2.rowHeader {
+        width: 100%;
+        margin: 0px;
+    }
+    #serviceContainer p.rowpara {
+        width: 100%;
+        line-height: 26px;
+    }
+    #serviceContainer img#bgImage {
+        padding: 12px;
+        padding-top: 32px;
+        padding-bottom: 0px;
+        width: 200px;
+    }
+    #serviceContainer img#carImage {
+        left: 420px;
+        top: 854px;
+        width: 208px;
+    }
+}
+
+@media only screen and (min-width: 1103px ) and (max-width: 1250px) {
+    #serviceMainContainer {
+       height: 1063px;
+   }
+   #serviceContainer .container {
+       margin-top: 50px;
+   }
+   #serviceContainer .subContainer {
+       margin-bottom: 22px;
+       margin-left: 0;
+   }
+   #serviceContainer img#homeImg {
+       width: 15%;
+       height: 10%;
+       padding: 23px;
+   }
+   #serviceContainer h2.rowHeader {
+       width: 100%;
+       margin: 0px;
+   }
+   #serviceContainer p.rowpara {
+       width: 100%;
+       line-height: 26px;
+   }
+   #serviceContainer img#bgImage {
+       padding: 12px;
+       padding-top: 32px;
+       padding-bottom: 0px;
+       width: 200px;
+   }
+   #serviceContainer img#carImage {
+    left: 473px;
+    top: 854px;
+    width: 208px;
+}
+}
+
+@media only screen and (min-width: 1251px ) and (max-width: 1500px) {
+    #serviceMainContainer {
+       height: 1063px;
+   }
+   #serviceContainer .container {
+       margin-top: 50px;
+   }
+   #serviceContainer .subContainer {
+       margin-bottom: 22px;
+       margin-left: 0;
+   }
+   #serviceContainer img#homeImg {
+       width: 15%;
+       height: 10%;
+       padding: 23px;
+   }
+   #serviceContainer h2.rowHeader {
+       width: 100%;
+       margin: 0px;
+   }
+   #serviceContainer p.rowpara {
+       width: 100%;
+       line-height: 26px;
+   }
+   #serviceContainer img#bgImage {
+    padding: 12px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    width: 244px;
+}
+   #serviceContainer img#carImage {
+    left: 546px;
+    top: 877px;
+    width: 233px;
+}
+}

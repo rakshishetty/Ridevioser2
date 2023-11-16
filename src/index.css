@@ -1,0 +1,20 @@
+:root {
+  --primaryColor: #ffcc17;
+  --secondaryColor: #3bba9c;
+  --bgColor: #f5f6f7;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a{
+  text-decoration: none;
+}

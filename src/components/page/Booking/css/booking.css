@@ -1,0 +1,183 @@
+#bookingContainer div.fstContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bookingContainer label.header {
+    color: var(--primaryColor);
+    margin-bottom: 20px;
+}
+
+#bookingContainer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#bookingContainer .buttonContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+#bookingContainer .button {
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+#bookingContainer div.border {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    border: 1px solid var(--primaryColor);
+    background: #161616;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#bookingContainer .options {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #161616;
+    color: var(--primaryColor);
+    border: 1px solid var(--primaryColor);
+}
+
+input.options {
+    outline: 1px solid #CC9966;
+}
+
+#bookingContainer input.widthText {
+    width: 67px;
+    height: 17px;
+}
+
+#bookingContainer input.widthNum {
+    width: 68px;
+    height: 17px;
+}
+
+input#\:r1\: {
+    color: var(--primaryColor);
+}
+
+.MuiFormControl-root.MuiTextField-root.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+    border: 1px solid var(--primaryColor);
+    width: 225px;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-adornedEnd.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    height: 38px;
+    color: var(--primaryColor);
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+    font-size: 30px;
+    color: var(--primaryColor);
+}
+
+select.options {
+    outline: 1px solid #CC9966;
+}
+
+.fst {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+.fontStyle{
+    color: white !important;
+}
+
+div#flex {
+    flex-direction: column;
+}
+
+#bookingContainer #padding-left {
+    padding-left: 95px;
+    padding-right: 95px;
+}
+#bookingContainer div#tableContainer {
+    display: flex;
+    justify-content: center;
+}
+#tableContainer table {
+    border-collapse: collapse;
+    width: 90%;
+}
+#tableContainer th, td {
+    border: 1px solid var(--primaryColor);
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.Mui-readOnly.MuiInputBase-readOnly.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    color: var(--primaryColor);
+    height: 40px;
+}
+
+@media only screen and (min-width: 400px ) and (max-width: 800px) {
+   
+    #bookingContainer div.border {
+        flex-direction: column;
+        align-items: center;
+    }
+    #bookingContainer .container {
+        padding-bottom: 20px;
+    }
+
+    #bookingContainer label.header {
+       margin-left: 37px;
+    }
+    
+    #bookingContainer .options {
+        margin-left: 37px;
+        width: 250px;
+    }
+    #bookingContainer input.widthNum {
+        width: 90px;
+    }
+    .fst {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+     #bookingContainer .button {
+        margin-left: 46px;
+    }
+    .MuiFormControl-root.MuiTextField-root.css-z3c6am-MuiFormControl-root-MuiTextField-root {
+        width: 250px !important;
+        margin-left: 36px ;
+    }
+  
+    #bookingContainer input.widthText {
+        width: 88px !important;
+    }
+
+    #bookingContainer div#tableContainer {
+        justify-content: initial;
+    }
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+        font-size: 30px;
+        color: var(--primaryColor);
+    }
+    #bookingContainer .buttonContainer {
+        padding-top: 10px;
+    }
+   
+}
+
+@media only screen and (min-width: 801px ) and (max-width: 1000px) {
+    #bookingContainer div.border {
+        width: 95%;
+    }
+}

@@ -1,0 +1,109 @@
+ .bgImage{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.anchorLinkContainer {
+    display: flex;
+}
+p.slash {
+    margin: 0px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: var(--primaryColor);
+}
+ a#homeLink {
+    color: white;
+}
+a#subLink {
+    color: var(--primaryColor);
+}
+ .color {
+    color: var(--primaryColor);
+    font-size: 36px;
+}
+#aboutContainer #aboutContainer{
+    color: var(--primaryColor);
+    height: 500px;
+}
+#aboutContainer #aboutParaContainer {
+    width: 65%;
+    line-height: 35px;
+    font-weight: 200;
+    color: var(--primaryColor);
+    font-size: 20px;
+}
+#aboutContainer #container {
+    padding-left: 85px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+#aboutContainer #btnimgContainer{
+    display: flex;
+}
+#aboutContainer img.img {
+    padding-right: 224px;
+    width: 460px;
+    height: 280px;
+    padding-top: 190px;
+}
+
+@media only screen and (min-width: 400px ) and (max-width: 600px) {
+    #aboutContainer #aboutParaContainer {
+        width: 100%;
+        font-size: 16px;
+    }
+    #aboutContainer #container {
+        padding-left: 40px;
+        margin-bottom: 45px;
+        margin-top: 47px;
+    }
+    #aboutContainer #btnimgContainer {
+        flex-direction: column;
+    }
+    #aboutContainer img.img {
+        padding-right: 0px;
+        width: 342px;
+        height: 302px;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+}
+@media only screen and (min-width: 601px ) and (max-width: 1000px) {
+    #aboutContainer #aboutParaContainer {
+        width: 100%;
+        font-size: 16px;
+    }
+    #aboutContainer #container {
+        padding-left: 40px;
+        margin-bottom: 45px;
+        margin-top: 47px;
+    }
+    #aboutContainer #btnimgContainer {
+        flex-direction: column;
+    }
+    #aboutContainer img.img {
+        padding-right: 0px;
+        width: 342px;
+        height: 302px;
+        padding-top: 0px;
+        padding-left: 85px;
+    }
+
+}
+
+@media only screen and (min-width: 1001px ) and (max-width: 1555px) {
+  
+    #aboutContainer #aboutParaContainer {
+        width: 93%;
+    }
+    #aboutContainer img.img {
+        padding-right: 19px;
+        width: 456px;
+        height: 273px;
+        padding-top: 242px;
+    }
+}
