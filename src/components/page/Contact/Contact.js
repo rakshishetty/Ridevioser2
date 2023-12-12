@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BgImage from '../../../common/BackgroundImage/BgImage'
 import { LABELS } from '../../../common/constant/const'
@@ -13,6 +13,56 @@ import GoogleIcon from '@mui/icons-material/Google';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import InstagramIcon from '@mui/icons-material/Instagram';
 function Contact() {
+    const [firstName, setFirstName] = useState('');
+    const [lastName, setLastName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
+
+    const handleFirstNameChange = (e) => {
+        setFirstName(e.target.value);
+    };
+
+    const handleLastNameChange = (e) => {
+        setLastName(e.target.value);
+    };
+
+    const handleEmailChange = (e) => {
+        setEmail(e.target.value);
+    };
+
+    const handlePhoneChange = (e) => {
+        setPhone(e.target.value);
+    };
+
+    const handleSubmitButton = () => {
+        if (!isValidName(firstName) || !isValidName(lastName)) {
+            alert('Please enter a valid first and last name');
+            return;
+        }
+        if (!isValidEmail(email)) {
+            alert('Please enter a valid email address');
+            return;
+        }
+
+        if (!isValidPhoneNumber(phone)) {
+            alert('Please enter a valid phone number');
+        }
+    };
+    const isValidName = (name) => {
+        const nameRegex = /^[a-zA-Z\s]*$/;
+        return nameRegex.test(name);
+    };
+    const isValidEmail = (email) => {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    };
+
+    const isValidPhoneNumber = (phone) => {
+        const phoneRegex = /^\d{10}$/;
+        return phoneRegex.test(phone);
+    };
+
+
     return (
         <>
             <BgImage className='bgImage'>
@@ -43,7 +93,7 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                        <div  className='iconContainer'>
+                        <div className='iconContainer'>
                             <FacebookRoundedIcon />
                             <TwitterIcon />
                             <GoogleIcon />
@@ -55,18 +105,22 @@ function Contact() {
                         <h2 id='rightHeading'>Let's Talk</h2>
                         <div className="formBox">
                             <div className="inputBox w50">
-                                <TextField id="standard-basic" label="First Name" variant="standard" />
+                                <TextField id="standard-basic" label="First Name" variant="standard" value={firstName}
+                                    onChange={handleFirstNameChange} />
                             </div>
                             <div className="inputBox w50">
-                                <TextField id="standard-basic" label="Last Name" variant="standard" />
+                                <TextField id="standard-basic" label="Last Name" variant="standard" value={lastName}
+                                    onChange={handleLastNameChange} />
                             </div>
                         </div>
                         <div className="formBox">
                             <div className="inputBox w50">
-                                <TextField id="standard-basic" label="Email Address" variant="standard" />
+                                <TextField id="standard-basic" label="Email Address" variant="standard" value={email}
+                                    onChange={handleEmailChange} />
                             </div>
                             <div className="inputBox w50">
-                                <TextField id="standard-basic" label="Mobile Number" variant="standard" />
+                                <TextField id="standard-basic" label="Mobile Number" variant="standard" value={phone}
+                                    onChange={handlePhoneChange} />
                             </div>
                         </div>
                         <div className="formBox">
@@ -74,7 +128,7 @@ function Contact() {
                                 <TextField id="standard-basic" label="Write your message here....." variant="standard" />
                             </div>
                         </div>
-                        <button id='submitButton'>SEND</button>
+                        <button id='submitButton' onClick={handleSubmitButton}>SEND</button>
                         <div >
                         </div>
                     </div>

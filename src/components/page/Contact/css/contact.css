@@ -95,7 +95,9 @@ label+.css-v4u5dn-MuiInputBase-root-MuiInput-root {
     border-radius: 5px;
     color: #695c5c;
 }
-
+input#standard-basic {
+    color: var(--primaryColor);
+}
 @media only screen and (min-width: 400px) and (max-width: 1500px) {
     #contactContainer #wrapperContainer {
         padding-bottom: 66px;
